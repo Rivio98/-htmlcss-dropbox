@@ -118,3 +118,13 @@ h1 {
     margin-left: 20px;
     margin-right: 5px;
 }
+
+.quadrati {
+    width: calc(100vw / 3);
+    background-color: #0161FF;
+    height: 200px;
+}
+
+.full-container {
+    width: 100vw;
+}
