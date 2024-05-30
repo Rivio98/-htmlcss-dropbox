@@ -15,6 +15,15 @@
     justify-content: space-between;
 }
 
+.col-100 {
+    width: 100%;
+}
+
+.col-33 {
+    width: calc(100% / 3);
+    flex-direction: column;
+}
+
 /* styling classes */
 body {
     font-family: "Open Sans", sans-serif;
@@ -34,8 +43,14 @@ body {
     justify-content: right;
 }
 
+h1 {
+    text-align: start;
+    font-size: 70px;
+}
+
 .btn {
     padding: 10px 15px;
+    border-style: none;
 }
 
 .bt-blue {
@@ -44,4 +59,30 @@ body {
 
 .ft-white {
     color: #fff;
+}
+
+.wrap-lightblue {
+    background-color: #B4D0E7;
+    background-color: ;
+}
+
+.content-center {
+    width: 1200px;
+    margin: 0 auto;
+}
+
+.txt-start {
+    text-align: start;
+}
+
+.txt-center {
+    text-align: center;
+}
+
+.txt-left {
+    text-align: left;
+}
+
+.dr-col {
+    display: flex;
 }
