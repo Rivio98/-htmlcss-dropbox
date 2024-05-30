@@ -22,6 +22,20 @@
 .col-33 {
     width: calc(100% / 3);
     flex-direction: column;
+    border: 1px solid black;
+    margin: 20px;
+}
+
+.col-30 {
+    width: 30%;
+}
+
+.col-70 {
+    width: 70%;
+}
+
+.col-17 {
+    width: calc(100% / 6);
 }
 
 /* styling classes */
@@ -62,8 +76,9 @@ h1 {
 }
 
 .wrap-lightblue {
+    height: 600px;
     background-color: #B4D0E7;
-    background-color: ;
+    margin-bottom: 150px;
 }
 
 .content-center {
@@ -85,4 +100,21 @@ h1 {
 
 .dr-col {
     display: flex;
+}
+
+.br-line {
+    border: 1px solid black;
+}
+
+#jumbo {
+    width: 100%;
+}
+
+.contenuto {
+    margin: 20px;
+}
+
+.choice {
+    margin-left: 20px;
+    margin-right: 5px;
 }
