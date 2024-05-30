@@ -1,0 +1,47 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* layout classes */
+.row {
+    display: flex;
+}
+
+.col-50 {
+    display: flex;
+    width: 50%;
+    justify-content: space-between;
+}
+
+/* styling classes */
+body {
+    font-family: "Open Sans", sans-serif;
+}
+
+.list-header {
+    display: flex;
+    list-style: none;
+    align-items: center;
+}
+
+.list-header li {
+    padding: 20px;
+}
+
+.cnt-right {
+    justify-content: right;
+}
+
+.btn {
+    padding: 10px 15px;
+}
+
+.bt-blue {
+    background-color: #0161FF;
+}
+
+.ft-white {
+    color: #fff;
+}
