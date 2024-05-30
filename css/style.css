@@ -120,11 +120,37 @@ h1 {
 }
 
 .quadrati {
-    width: calc(100vw / 3);
-    background-color: #0161FF;
-    height: 200px;
+    width: calc(100% / 3);
+    height: 500px;
+    border: 1px solid black;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
 }
 
 .full-container {
-    width: 100vw;
+    width: 100%;
+}
+
+.quadri {
+    width: calc(100% / 2);
+    height: calc(100% / 2);
+    border: 1px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 50px;
+}
+
+
+img {
+    width: 100%;
+    background-size: 100%;
+    background-repeat: no-repeat;
+
+}
+
+.quadro {
+    padding: 50px;
 }
