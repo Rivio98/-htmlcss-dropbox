@@ -64,7 +64,8 @@ body {
 
 .list-footer {
     list-style: none;
-    padding: 100px 30px;
+    padding-top: 100px;
+    padding-right: 50px;
 }
 
 .list-footer li {
@@ -202,6 +203,7 @@ img {
 
 .hr-footer {
     width: 10%;
+    margin-top: 50px;
 }
 
 
@@ -369,4 +371,10 @@ img {
     padding-bottom: 15px;
     margin-left: 200px;
     font-size: xx-large
+}
+
+.language {
+    color: #999999;
+    padding: 20px 0 50px;
+
 }
