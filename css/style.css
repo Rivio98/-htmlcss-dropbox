@@ -121,7 +121,6 @@ h1 {
 
 .quadrati {
     width: calc(100% / 3);
-    height: 500px;
     border: 1px solid black;
     display: flex;
     flex-wrap: wrap;
