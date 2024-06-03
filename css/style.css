@@ -142,6 +142,11 @@ h1 {
     margin: 20px 40px 80px;
 }
 
+.subscribe-plan {
+    padding: 50px 20px;
+    font-size: xx-large;
+}
+
 .choice {
     margin-left: 20px;
     margin-right: 5px;
@@ -232,4 +237,8 @@ img {
     color: #0161FF;
     font-weight: bolder;
     padding-right: 10px;
+}
+
+.fatturazione {
+    padding-bottom: 30px;
 }
