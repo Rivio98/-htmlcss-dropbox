@@ -19,6 +19,7 @@
     width: 100%;
 }
 
+
 .col-33 {
     width: calc(100% / 3);
     flex-direction: column;
@@ -98,7 +99,7 @@ h1 {
 }
 
 .wrap-lightbluetop {
-    height: 600px;
+    height: 650px;
     background-color: #B4D0E7;
     margin-bottom: 150px;
 }
@@ -197,6 +198,7 @@ img {
     margin-top: 40px;
 }
 
+
 .pack .fa-solid {
     display: inline-block;
 }
@@ -222,6 +224,11 @@ img {
     margin: 30px 0;
 }
 
+.mg-width-team {
+    width: 100%;
+    margin: 10px 0 30px;
+}
+
 .pd-bottom {
     padding-bottom: 5px;
 }
@@ -233,6 +240,10 @@ img {
     margin: 30px 0;
 }
 
+.br-line {
+    border: 1px solid black;
+}
+
 .entity-list {
     color: #0161FF;
     font-weight: bolder;
@@ -241,4 +252,43 @@ img {
 
 .fatturazione {
     padding-bottom: 30px;
+}
+
+.mg-20 {
+    margin: 30px 0 50px;
+}
+
+.freetrial-arrow {
+    font-size: xx-large;
+    display: block;
+    margin-bottom: 20px;
+    margin-left: 20px;
+}
+
+.team-content {
+    display: flex;
+    padding: 20px;
+}
+
+.txt-enterprise {
+    padding: 10px 0 40px;
+}
+
+.row-team {
+    margin: 50px 0 100px;
+}
+
+.space {
+    margin: 50px 0 200px;
+}
+
+.pd-top {
+    padding-top: 30px;
+}
+
+#btn-findpartner {
+    padding: 10px;
+    background-color: #fff;
+    font-size: x-large;
+    margin-top: 100px;
 }
