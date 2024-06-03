@@ -64,6 +64,15 @@ body {
 
 .list-footer {
     list-style: none;
+    padding: 100px 30px;
+}
+
+.list-footer li {
+    padding-top: 10px;
+}
+
+.list-footer li:first-child {
+    padding-bottom: 20px;
 }
 
 .advantage-list {
