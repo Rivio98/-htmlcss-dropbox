@@ -38,7 +38,15 @@
     width: calc(100% / 6);
 }
 
+.col-20 {
+    width: calc(100% / 5);
+}
+
 /* styling classes */
+footer {
+    background-color: black;
+}
+
 body {
     font-family: "Open Sans", sans-serif;
 }
@@ -51,6 +59,10 @@ body {
 
 .list-header li {
     padding: 20px;
+}
+
+.list-footer {
+    list-style: none;
 }
 
 .cnt-right {
@@ -75,12 +87,18 @@ h1 {
     color: #fff;
 }
 
-.wrap-lightblue {
+.wrap-lightbluetop {
     height: 600px;
     background-color: #B4D0E7;
     margin-bottom: 150px;
 }
 
+.wrap-lightbluebottom {
+    background-color: #B4D0E7;
+    margin-bottom: 150px;
+}
+
+/* utilities */
 .content-center {
     width: 1200px;
     margin: 0 auto;
@@ -153,3 +171,5 @@ img {
 .quadro {
     padding: 50px;
 }
+
+.footer-opt {}
